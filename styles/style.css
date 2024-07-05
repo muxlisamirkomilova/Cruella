@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #6d6d6d;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+#navbar {
+  overflow: auto;
+  background-color: #000;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul a {
+  display: inline-block;
+  padding: 29px;
+  font-size: 28px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  color: #8e0f0f;
+}
+
+.text-primary {
+  color: #7a0f0f;
+}
+
+.contanier {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#showcase {
+  background-image: url("https://wallpapers.com/images/hd/red-aesthetic-vaporwave-art-2xue9385li4gp3f3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  mask-type: luminance;
+  text-align: center;
+  color: #000;
+  padding-top: 170px;
+}
+
+#showcase h1 {
+  font-size: 60px;
+}
+
+#showcase p {
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+.logo img {
+  filter: drop-shadow(20px 10px 7px #8e0f0f);
+}
+
+.ite img {
+  filter: drop-shadow(20px 8px 6px #504b4b);
+}
+.ite h1 {
+  margin: 50px;
+  max-width: 450px;
+  line-height: 3.6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.b1 {
+  background-color: #000;
+  padding: 30px;
+}
+
+.wrapper, .design {
+  height: 900px;
+  max-width: 95%;
+  margin: 50px auto;
+  gap: 11px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.wrapper .block, .wrapper .block1, .design .block, .design .block1 {
+  height: 100%;
+  transition-duration: 0.3s;
+  width: 30%;
+}
+.wrapper .block:hover, .wrapper .block1:hover, .design .block:hover, .design .block1:hover {
+  transition-delay: 0.3s;
+  width: 55%;
+}
+
+.block1 {
+  filter: grayscale(1);
+}
+
+.block1:hover {
+  filter: none;
+}
+
+.block:nth-child(1) {
+  width: 45%;
+  background-image: url("../imag2 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block:nth-child(2) {
+  width: 45%;
+  background-image: url("../imag5 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block:nth-child(3) {
+  width: 45%;
+  background-image: url("../image4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block:nth-child(4) {
+  width: 45%;
+  background-image: url("../imag6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block:nth-child(5) {
+  width: 45%;
+  background-image: url("../imag7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block:nth-child(6) {
+  width: 45%;
+  background-image: url("../imag8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tel {
+  background-image: url("https://i.pinimg.com/originals/23/30/3f/23303fa4947a5d75730437cc4350d3f3.png");
+}
+
+.text {
+  background-image: url("https://cdn1.ozone.ru/s3/multimedia-o/6286769472.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.load {
+  font-size: 3.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.div {
+  height: 600px;
+  width: 90%;
+  margin: 100px auto;
+  display: flex;
+  grid-gap: 5px;
+  justify-content: space-between;
+}
+.div .item, .div .item1 {
+  height: 100%;
+  width: 40%;
+}
+
+.item1:nth-child(1) {
+  background-image: url("https://img1.akspic.ru/attachments/originals/6/8/3/5/2/125386-risovanie-sovremennoe_iskusstvo-vizualnoe_iskusstvo-graficeskij_dizajn-illustracia-1920x1200.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item1:nth-child(2) {
+  background-image: url("https://sdo-sgkstd.ru/pluginfile.php/28230/course/overviewfiles/fs_10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item1:nth-child(3) {
+  background-image: url("https://i.pinimg.com/originals/8e/e8/c5/8ee8c5656f71313d59e34f9f3a746770.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item1:nth-child(4) {
+  background-image: url("https://wallpapercrafter.com/desktop1/518109-abstract-paint-splatter-butterfly-multi-colored.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item:nth-child(1) {
+  width: 45%;
+  background-image: url("https://i.pinimg.com/originals/d3/17/56/d31756909dea2874c9ad4dd185ce9ee5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item:nth-child(2) {
+  width: 45%;
+  background-image: url("https://assets.teenvogue.com/photos/602d2338f3cd495901223ea8/16:9/w_2560%2Cc_limit/CRU-13687_RV2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item:nth-child(3) {
+  width: 45%;
+  background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/5222609/pub_61c48225c1fd4f13085f9dd4_61c48260f139233b9e9856c8/scale_1200");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block1:nth-child(1) {
+  width: 45%;
+  background-image: url("https://i.pinimg.com/originals/3c/a1/23/3ca123fcb9be2d33f6be77f37971fbd8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block1:nth-child(2) {
+  width: 45%;
+  background-image: url("https://i.pinimg.com/736x/f6/af/e6/f6afe605fcc8fdb0e29284c26cd39e83.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block1:nth-child(3) {
+  width: 45%;
+  background-image: url("https://i.pinimg.com/474x/5e/83/4e/5e834eeba58b8b39652026d850836806.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block1:nth-child(4) {
+  width: 45%;
+  background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/9400491/pub_64198a89f3743246c442a98f_6419b1fbbfc176138c347217/scale_1200");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block1:nth-child(5) {
+  width: 45%;
+  background-image: url("https://i.pinimg.com/originals/fa/ff/c4/faffc4ae93929dac1130a28b7b3e3e91.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block1:nth-child(6) {
+  width: 45%;
+  background-image: url("https://i.pinimg.com/originals/20/e1/51/20e151d51ad24467e1f44fe69496f87c.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  text-align: center;
+}
+
+.wor {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120px;
+}
+
+textarea, input {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  width: 70%;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.block8 {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.block8 .div4:nth-child(1) {
+  display: flex;
+}
+
+.block8 .div4:nth-child(1) p {
+  color: var(--label-color-dark-secondary, rgba(235, 235, 245, 0.6));
+  font-family: "Roboto", Semibold;
+  font-size: 1.2rem;
+  display: flex;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px;
+}
+
+.block8 .div4 svg {
+  margin: 10px;
+  float: right;
+}/*# sourceMappingURL=style.css.map */
